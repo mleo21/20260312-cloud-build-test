@@ -12,3 +12,6 @@ steps:
       - --entry-point=hello_world
       - --trigger-http
       - --allow-unauthenticated
+
+options:
+  logging: CLOUD_LOGGING_ONLY
